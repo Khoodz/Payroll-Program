@@ -1,0 +1,38 @@
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\UnitTestPayroll.dll
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\UnitTestPayroll.pdb
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\obj\Debug\UnitTestPayroll.csproj.AssemblyReference.cache
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\obj\Debug\UnitTestPayroll.csproj.CoreCompileInputs.cache
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\obj\Debug\UnitTestPayroll.csproj.CopyComplete
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\obj\Debug\UnitTestPayroll.dll
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\obj\Debug\UnitTestPayroll.pdb
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\OO programming.exe
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\OO programming.pdb
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\OO programming.xml
+E:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\OO programming.exe.config
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\UnitTestPayroll.dll
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\UnitTestPayroll.pdb
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\OO programming.exe
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\OO programming.pdb
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\OO programming.xml
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\OO programming.exe.config
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\obj\Debug\UnitTestPayroll.csproj.AssemblyReference.cache
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\obj\Debug\UnitTestPayroll.csproj.CoreCompileInputs.cache
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\obj\Debug\UnitTestPayroll.csproj.CopyComplete
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\obj\Debug\UnitTestPayroll.dll
+F:\OOP\OOP PROJECT\OOP PROJ\UnitTestPayroll\obj\Debug\UnitTestPayroll.pdb

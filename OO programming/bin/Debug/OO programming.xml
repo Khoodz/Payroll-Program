@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OO programming</name>
+    </assembly>
+    <members>
+        <member name="T:OO_programming.Employee">
+            <summary>
+            employee class to retrieve all employee information
+            </summary>
+        </member>
+        <member name="M:OO_programming.Employee.#ctor(System.String,System.String,System.String,System.Double,System.String,System.Double)">
+            <summary>
+            holds all variables for employee, used in listbox and in saved csv
+            </summary>
+            <param name="employeeID"></param>
+            <param name="firstName"></param>
+            <param name="lastName"></param>
+            <param name="hourlyRate"></param>
+            <param name="taxThreshold"></param>
+            <param name="hoursWorked"></param>
+        </member>
+        <member name="P:OO_programming.Employee.EmployeeID">
+            <summary>
+            id for employee
+            </summary>
+        </member>
+        <member name="P:OO_programming.Employee.FirstName">
+            <summary>
+            firstname of employee
+            </summary>
+        </member>
+        <member name="P:OO_programming.Employee.LastName">
+            <summary>
+            lastname of employee
+            </summary>
+        </member>
+        <member name="P:OO_programming.Employee.HourlyRate">
+            <summary>
+            employee's hourly rate
+            </summary>
+        </member>
+        <member name="P:OO_programming.Employee.TaxThreshold">
+            <summary>
+            tax threshold of employee
+            </summary>
+        </member>
+        <member name="P:OO_programming.Employee.GrossPay">
+            <summary>
+            grossPay of the employee
+            </summary>
+        </member>
+        <member name="P:OO_programming.Employee.Tax">
+            <summary>
+            amount of tax paid by employee
+            </summary>
+        </member>
+        <member name="P:OO_programming.Employee.NetPay">
+            <summary>
+            employee's net pay
+            </summary>
+        </member>
+        <member name="P:OO_programming.Employee.Superannuation">
+            <summary>
+            superannuation of employee
+            </summary>
+        </member>
+        <member name="P:OO_programming.Employee.FullName">
+            <summary>
+            used to shorten code, full name of employee
+            </summary>
+        </member>
+        <member name="P:OO_programming.Employee.EmployeeInfo">
+            <summary>
+            used to further shorten code by combining employeeID and FullName
+            </summary>
+        </member>
+        <member name="P:OO_programming.Employee.hoursWorked">
+            <summary>
+            hours worked by employee
+            </summary>
+        </member>
+        <member name="M:OO_programming.Employee.CalculatePayment">
+            <summary>
+            used to calculate the payment in the listbox 
+            </summary>
+        </member>
+        <member name="T:OO_programming.Form1">
+            <summary>
+            form1 used for the winForms design
+            </summary>
+        </member>
+        <member name="M:OO_programming.Form1.#ctor">
+            <summary>
+            form1 used to populate listbox and return information on employee
+            </summary>
+        </member>
+        <member name="M:OO_programming.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            general surface of the payroll system, used as the square design
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:OO_programming.Form1.LoadTextFileToListbox(System.String,System.Collections.Generic.List{OO_programming.Employee})">
+            <summary>
+             Used to load employee info to listbox
+            </summary>
+            <param name="inputFilePath"></param>
+            <param name="listEmployee"></param>
+        </member>
+        <member name="M:OO_programming.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            "Calculate" button used to calclulate the payment and enter employee details
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:OO_programming.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            used to save employee info to csv file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:OO_programming.Form1.Form1_Load_1(System.Object,System.EventArgs)">
+            <summary>
+            Used to input employee information into the listbox
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:OO_programming.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:OO_programming.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:OO_programming.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:OO_programming.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:OO_programming.PaySlip">
+            <summary>
+            Class a capture details accociated with an employee's pay slip record
+            </summary>
+        </member>
+        <member name="M:OO_programming.PaySlip.#ctor(System.String)">
+            <summary>
+            used to return paysummary
+            </summary>
+            <param name="paysummary"></param>
+        </member>
+        <member name="T:OO_programming.PayCalculator">
+            <summary>
+            Base class to hold all Pay calculation functions
+            Default class behaviour is tax calculated with tax threshold applied
+            </summary>
+        </member>
+        <member name="M:OO_programming.PayCalculator.CalculateGrossPay(OO_programming.Employee)">
+            <summary>
+            calculate grossPay based using employee variable to retrieve all information, etc hourly rate.
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OO_programming.PayCalculator.CalculateSuperannuation(System.Double)">
+            <summary>
+            used to calculate superannuation, it is grossPay times 0.105
+            </summary>
+            <param name="grossPay"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OO_programming.PayCalculator.CalculateTax(System.Double,System.String)">
+            <summary>
+            grossPay used to calculate grossPay
+            taxThreshold used to determine tax threshold is true or not
+            </summary>
+            <param name="grossPay"></param>
+            <param name="taxThreshold"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OO_programming.PayCalculator.CalcTaxV3(System.Double)">
+            <summary>
+            tax calculator for employees with no tax free threshold
+            </summary>
+            <param name="salary"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OO_programming.PayCalculator.CalculateNetPay(System.Double,System.Double)">
+            <summary>
+            used to calculate net pay by doing grossPay minus tax
+            </summary>
+            <param name="grossPay"></param>
+            <param name="tax"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OO_programming.PayCalculatorWithThreshold">
+            <summary>
+            paycalculator class with threshold
+            </summary>
+        </member>
+        <member name="M:OO_programming.PayCalculatorWithThreshold.CalcTaxV2(System.Double)">
+            <summary>
+            method to calculate tax with tax free threshold
+            </summary>
+            <param name="salary"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OO_programming.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:OO_programming.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:OO_programming.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
